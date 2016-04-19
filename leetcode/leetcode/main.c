@@ -8,20 +8,46 @@
 
 #include <stdio.h>
 #include "1 Two Sum.h"
+#include "2 Add Two Number.h"
 #include "stdlib.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    int nums[] = {1, 3, 6, 7};
+//    int nums[] = {1, 3, 6, 7};
+//    
+//    int *res = twoSum(nums, 4, 10);
+//    
+//    for (int i = 0; i < 2; i++) {
+//        printf("%d \n", res[i]);
+//    }
+//    
+//    free(res);
     
-    int *res = twoSum(nums, 4, 10);
+//    struct ListNode {
+//        int val;
+//        struct ListNode *next;
+//    };
     
-    for (int i = 0; i < 2; i++) {
-        printf("%d \n", res[i]);
-    }
+    struct ListNode l3 = {4};
     
-    free(res);
+    struct ListNode l4 = {6};
+    
+    struct ListNode *l5 = &l3;
+    
+    struct ListNode *l6 = &l4;
+    
+    struct ListNode l7 = {2, l5};
+    
+    struct ListNode l8 = {5, l6};
+    
+    struct ListNode *l9 = &l7;
+    
+    struct ListNode *l0 = &l8;
+    
+    struct ListNode *l = addTwoNumbers(l9, l0);
+    
+    printf("%d, %d, %d", l->val, l->next->val, l->next->next->val);
     
     return 0;
 }

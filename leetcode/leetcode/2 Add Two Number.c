@@ -1,12 +1,12 @@
 //
-//  2 Add Two Numbers.c
+//  2 Add Two Number.c
 //  leetcode
 //
-//  Created by 柴勇峰 on 4/18/16.
+//  Created by 柴勇峰 on 4/20/16.
 //  Copyright © 2016 Brave. All rights reserved.
 //
 
-#include <stdio.h>
+#include "2 Add Two Number.h"
 #include "stdlib.h"
 
 /*
@@ -24,10 +24,15 @@
  * };
  */
 
-struct ListNode {
-    int val;
-    struct ListNode *next;
-};
+// 1.结构体
+// 2.指向结构体的指针
+// 3.结构体指针初始化问题
+
+//1.可以在定义结构体类型的同时声明结构体变量；
+//2.如果定义结构体类型的同时声明结构体变量，此时结构体名称可以省略；
+//3.定义结构体类型并不会分配内存，在定义结构体变量的时候才进行内存分配（同基本类型时类似的）；
+//4.结构体类型的所占用内存大型等于所有成员占用内存大小之和（如果不考虑内存对齐的前提下）；
+
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     
