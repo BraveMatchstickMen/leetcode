@@ -24,6 +24,8 @@
 // 2.返回一个数组
 // 3.数组指针
 
+// 解答方法一：双重循环尝试， 复杂度O(n^2)
+
 int* twoSum(int* nums, int numsSize, int target) {
     
     int index = 0;
@@ -50,3 +52,18 @@ int* twoSum(int* nums, int numsSize, int target) {
     
     return resultArray;
 }
+
+// 解答方法二:
+
+/*
+ 
+ 利用HashMap保存num[i]到i的映射,即将给定数组的值作为HashMap的Key，每个值对应的索引位置作为Value。
+ 
+ 接下来通过循环查询target值减去当前HashMap指向的值所得到的值是否在HashMap中即可,即查找map[target - num[i]]是否存在即可。
+ 
+ 时间复杂度：O（n),因为dict的存取开销为O(1)
+ 
+ */
+
+
+

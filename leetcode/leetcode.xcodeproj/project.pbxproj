@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E95286381CC4A731001924DA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E95286371CC4A731001924DA /* main.c */; };
 		E95286491CC4A985001924DA /* 1 Two Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = E95286471CC4A985001924DA /* 1 Two Sum.c */; };
+		E952864B1CC4EC3C001924DA /* 2 Add Two Numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = E952864A1CC4EC3C001924DA /* 2 Add Two Numbers.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		E95286371CC4A731001924DA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E95286471CC4A985001924DA /* 1 Two Sum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "1 Two Sum.c"; path = "../1 Two Sum.c"; sourceTree = "<group>"; };
 		E95286481CC4A985001924DA /* 1 Two Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "1 Two Sum.h"; path = "../1 Two Sum.h"; sourceTree = "<group>"; };
+		E952864A1CC4EC3C001924DA /* 2 Add Two Numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "2 Add Two Numbers.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E95286371CC4A731001924DA /* main.c */,
 				E95286471CC4A985001924DA /* 1 Two Sum.c */,
 				E95286481CC4A985001924DA /* 1 Two Sum.h */,
+				E952864A1CC4EC3C001924DA /* 2 Add Two Numbers.c */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95286491CC4A985001924DA /* 1 Two Sum.c in Sources */,
+				E952864B1CC4EC3C001924DA /* 2 Add Two Numbers.c in Sources */,
 				E95286381CC4A731001924DA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +247,7 @@
 				E952863D1CC4A731001924DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
