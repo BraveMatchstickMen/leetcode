@@ -10,6 +10,7 @@
 		E95286381CC4A731001924DA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E95286371CC4A731001924DA /* main.c */; };
 		E95286491CC4A985001924DA /* 1 Two Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = E95286471CC4A985001924DA /* 1 Two Sum.c */; };
 		E9ACAB861CDA207000CF692D /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = E9ACAB841CDA207000CF692D /* util.c */; };
+		E9ACAB891CDA231300CF692D /* Remove Duplicates from Sorted Array.c in Sources */ = {isa = PBXBuildFile; fileRef = E9ACAB871CDA231300CF692D /* Remove Duplicates from Sorted Array.c */; };
 		E9D4C8811CC69559002776CA /* 2 Add Two Number.c in Sources */ = {isa = PBXBuildFile; fileRef = E9D4C87F1CC69559002776CA /* 2 Add Two Number.c */; };
 		E9D4C8881CC75F2C002776CA /* Remove Element.c in Sources */ = {isa = PBXBuildFile; fileRef = E9D4C8861CC75F2C002776CA /* Remove Element.c */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,8 @@
 		E95286481CC4A985001924DA /* 1 Two Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "1 Two Sum.h"; path = "../1 Two Sum.h"; sourceTree = "<group>"; };
 		E9ACAB841CDA207000CF692D /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
 		E9ACAB851CDA207000CF692D /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		E9ACAB871CDA231300CF692D /* Remove Duplicates from Sorted Array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Remove Duplicates from Sorted Array.c"; sourceTree = "<group>"; };
+		E9ACAB881CDA231300CF692D /* Remove Duplicates from Sorted Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Remove Duplicates from Sorted Array.h"; sourceTree = "<group>"; };
 		E9D4C87F1CC69559002776CA /* 2 Add Two Number.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "2 Add Two Number.c"; sourceTree = "<group>"; };
 		E9D4C8801CC69559002776CA /* 2 Add Two Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "2 Add Two Number.h"; sourceTree = "<group>"; };
 		E9D4C8861CC75F2C002776CA /* Remove Element.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Remove Element.c"; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 			children = (
 				E9D4C8861CC75F2C002776CA /* Remove Element.c */,
 				E9D4C8871CC75F2C002776CA /* Remove Element.h */,
+				E9ACAB871CDA231300CF692D /* Remove Duplicates from Sorted Array.c */,
+				E9ACAB881CDA231300CF692D /* Remove Duplicates from Sorted Array.h */,
 			);
 			name = array;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				E95286491CC4A985001924DA /* 1 Two Sum.c in Sources */,
 				E9D4C8881CC75F2C002776CA /* Remove Element.c in Sources */,
 				E95286381CC4A731001924DA /* main.c in Sources */,
+				E9ACAB891CDA231300CF692D /* Remove Duplicates from Sorted Array.c in Sources */,
 				E9D4C8811CC69559002776CA /* 2 Add Two Number.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
