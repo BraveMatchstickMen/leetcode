@@ -10,6 +10,7 @@
 #include "1 Two Sum.h"
 #include "2 Add Two Number.h"
 #include "stdlib.h"
+#include "Remove Element.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -24,30 +25,38 @@ int main(int argc, const char * argv[]) {
 //    
 //    free(res);
     
+//   ********************************
+    
 //    struct ListNode {
 //        int val;
 //        struct ListNode *next;
 //    };
     
-    struct ListNode l3 = {4};
+//    struct ListNode l3 = {4};
+//    
+//    struct ListNode l4 = {6};
+//    
+//    struct ListNode *l5 = &l3;
+//    
+//    struct ListNode *l6 = &l4;
+//    
+//    struct ListNode l7 = {2, l5};
+//    
+//    struct ListNode l8 = {5, l6};
+//    
+//    struct ListNode *l9 = &l7;
+//    
+//    struct ListNode *l0 = &l8;
+//    
+//    struct ListNode *l = addTwoNumbers(l9, l0);
+//    
+//    printf("%d, %d, %d", l->val, l->next->val, l->next->next->val);
     
-    struct ListNode l4 = {6};
+//    *********************************
     
-    struct ListNode *l5 = &l3;
+    int nums[] = {3, 2, 2, 3};
     
-    struct ListNode *l6 = &l4;
-    
-    struct ListNode l7 = {2, l5};
-    
-    struct ListNode l8 = {5, l6};
-    
-    struct ListNode *l9 = &l7;
-    
-    struct ListNode *l0 = &l8;
-    
-    struct ListNode *l = addTwoNumbers(l9, l0);
-    
-    printf("%d, %d, %d", l->val, l->next->val, l->next->next->val);
+    removeElement(nums, 4, 3);
     
     return 0;
 }

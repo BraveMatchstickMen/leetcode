@@ -12,3 +12,5 @@
 #include <stdio.h>
 
 #endif /* Remove_Element_h */
+
+int removeElement(int* nums, int numsSize, int val);

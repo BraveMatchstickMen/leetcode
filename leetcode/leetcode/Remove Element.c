@@ -7,6 +7,7 @@
 //
 
 #include "Remove Element.h"
+#include "util.h"
 
 /*
  Given an array and a value, remove all instances of that value in place and return the new length.
@@ -21,6 +22,37 @@
  Your function should return length = 2, with the first two elements of nums being 2.
  */
 
+/*
+ 题解:简单的讲，可以一遍一遍查找是否有值等于val，如果有，删除.但是显然时间代价高。第二种做法是，用变量countVal记录元素值等于val的个数，对于任意一个非val值的元素，它的最终位置是（它原来所处的位置-它之前的值为val的元素个数）.这样，只需要一次遍历数组.
+ */
+
 int removeElement(int* nums, int numsSize, int val) {
-      // 22323232323
+    
+    if(nums==NULL)return 0;
+    
+    int i;
+    
+    int countVal = 0;
+    
+    int newSize = numsSize;
+    
+    for(i = 0; i < numsSize; i++)
+    {
+        if(nums[i] == val)
+        {
+            countVal ++;
+            
+            newSize --;
+            
+        } else {
+            
+            nums[i-countVal] = nums[i];
+        }
+    }
+    
+    printf("new length: %zd\n", newSize);
+    
+    printfArray(nums, newSize);
+    
+    return newSize;
 }
