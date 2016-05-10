@@ -11,6 +11,7 @@
 #include "2 Add Two Number.h"
 #include "stdlib.h"
 #include "Remove Element.h"
+#include "Remove Duplicates from Sorted Array.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -56,7 +57,9 @@ int main(int argc, const char * argv[]) {
     
     int nums[] = {3, 2, 2, 3};
     
-    removeElement(nums, 4, 3);
+//    removeElement(nums, 4, 3);
+    
+    removeDuplicates(nums, 4);
     
     return 0;
 }
