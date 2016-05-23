@@ -12,6 +12,7 @@
 #include "stdlib.h"
 #include "Remove Element.h"
 #include "Remove Duplicates from Sorted Array.h"
+#include "Remove Duplicates from Sorted Array II.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -55,11 +56,13 @@ int main(int argc, const char * argv[]) {
     
 //    *********************************
     
-    int nums[] = {3, 2, 2, 3};
+    int nums[] = {1, 1, 1, 2, 2, 3};
     
 //    removeElement(nums, 4, 3);
     
-    removeDuplicates(nums, 4);
+//    removeDuplicates(nums, 4);
+    
+    removeDuplicates2(nums, 6);
     
     return 0;
 }
