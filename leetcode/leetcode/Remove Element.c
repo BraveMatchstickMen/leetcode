@@ -56,3 +56,25 @@ int removeElement(int* nums, int numsSize, int val) {
     
     return newSize;
 }
+
+int removeElementSecond(int *nums, int numsSize, int val) {
+    
+    if (nums == NULL) return 0;
+    
+    int i = 0;
+    
+    int j = 0;
+    
+    for (i = 0; i < numsSize; i++) {
+        
+        if (nums[i] == val) {
+            
+            continue;
+        }
+        
+        nums[j] = nums[i];
+        j++;
+    }
+    
+    return j;
+}
