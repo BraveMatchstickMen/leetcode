@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD2E196E1D991F6A00BA3D85 /* Plus One.c in Sources */ = {isa = PBXBuildFile; fileRef = DD2E196C1D991F6A00BA3D85 /* Plus One.c */; };
 		DD2E19711D99277400BA3D85 /* Pascal's Triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = DD2E196F1D99277400BA3D85 /* Pascal's Triangle.c */; };
+		DD2E19961D9BDAA600BA3D85 /* Merge Sorted Array.c in Sources */ = {isa = PBXBuildFile; fileRef = DD2E19941D9BDAA600BA3D85 /* Merge Sorted Array.c */; };
 		E95286381CC4A731001924DA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E95286371CC4A731001924DA /* main.c */; };
 		E95286491CC4A985001924DA /* 1 Two Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = E95286471CC4A985001924DA /* 1 Two Sum.c */; };
 		E9ACAB861CDA207000CF692D /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = E9ACAB841CDA207000CF692D /* util.c */; };
@@ -35,6 +36,8 @@
 		DD2E196D1D991F6A00BA3D85 /* Plus One.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Plus One.h"; sourceTree = "<group>"; };
 		DD2E196F1D99277400BA3D85 /* Pascal's Triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Pascal's Triangle.c"; sourceTree = "<group>"; };
 		DD2E19701D99277400BA3D85 /* Pascal's Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pascal's Triangle.h"; sourceTree = "<group>"; };
+		DD2E19941D9BDAA600BA3D85 /* Merge Sorted Array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Merge Sorted Array.c"; sourceTree = "<group>"; };
+		DD2E19951D9BDAA600BA3D85 /* Merge Sorted Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Merge Sorted Array.h"; sourceTree = "<group>"; };
 		E95286341CC4A731001924DA /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95286371CC4A731001924DA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E95286471CC4A985001924DA /* 1 Two Sum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "1 Two Sum.c"; path = "../1 Two Sum.c"; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				DD2E196D1D991F6A00BA3D85 /* Plus One.h */,
 				DD2E196F1D99277400BA3D85 /* Pascal's Triangle.c */,
 				DD2E19701D99277400BA3D85 /* Pascal's Triangle.h */,
+				DD2E19941D9BDAA600BA3D85 /* Merge Sorted Array.c */,
+				DD2E19951D9BDAA600BA3D85 /* Merge Sorted Array.h */,
 			);
 			name = array;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2E19711D99277400BA3D85 /* Pascal's Triangle.c in Sources */,
+				DD2E19961D9BDAA600BA3D85 /* Merge Sorted Array.c in Sources */,
 				E9C4A0AA1CE18576006A9149 /* Remove Duplicates from Sorted Array II.c in Sources */,
 				DD2E196E1D991F6A00BA3D85 /* Plus One.c in Sources */,
 				E9ACAB861CDA207000CF692D /* util.c in Sources */,
